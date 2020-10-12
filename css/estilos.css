@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: yellow;
+}
+
+/******** LOGO **************/
+.header{
+	width: 98%;
+	height: 180px;
+	margin: 0px auto;
+	background-image: url(../img/fondo.jpg);
+	/*background-size: cover;*/
+}
+
+.header_grid{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: repeat(6,1fr);
+	grid-gap: 1px;
+}
+
+.header_items{
+	
+}
+/* GRID DEL LOGO*/
+.uno{
+	grid-column: span 3;
+}
+.dos{
+	grid-column: span 3;
+	
+}
+.tres{
+	grid-column: span 3;
+}
+
+.cinco{
+	grid-column: span 3;
+	text-align:center;
+
+}
+.siete{
+	grid-column: span 3;
+	margin-top: 0px;
+}
+.ocho{
+	grid-column: span 3;	
+}
+.nueve{
+	grid-column: span 3;
+}
+
+/*TITULO LOGO*/
+.aresa{
+	font-size: 16px;
+	margin-left: 70px;
+	font-weight: 900;
+	
+}
+.letra{
+	color: red;
+	font-weight: 900;
+	font-size: 18px;
+}
+
+/*GRAFICOS LOGO*/
+.logos{
+	width: 80px;
+	height: 70px;
+	padding:0px;
+	display:inline;
+	padding: 2px;
+}
+
+/* LOGO ESPECIALIDAD*/
+.logo_especialidad{
+	color:white;
+	text-align: right;
+	font-size: 11px;
+}
+
+/***********************************************/
+
+@media only screen and (min-width: 350px)and (orientation : landscape)  { /* MOOBIL LANSCAPE*/
+	
+	body{
+		background-color:greenyellow;
+	}
+}
+
+
+@media only screen and (min-width: 767px) { /* TABLET*/
+	
+	body{
+		background-color: blue;
+	}
+	
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+	
+	body{
+		background-color: red;
+	}
+	
+
+}
