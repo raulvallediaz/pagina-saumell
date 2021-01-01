@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>formulario</title>
- 
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/practica.css">
 </head>
-
 <body>
-<form action="enviar.php" method="POST">
-	<input type="text" name="nombre"><br/>
-	<input type="text" name="correo"><br/>
-	
-	<textarea name="mensaje"></textarea><p/>
-	<input type="submit" value="Enviar"><br/>
-</form>
+    
+    <div class="container">
+        <p class="title">Formulario Contacto</p>
+        
+        <form action="mail.php" method="post">
+           
+            <input type="text" name="nombre" placeholder="Nombre">
+            <input type="text" name="email" placeholder="Email">
+            <input type="text" name="telefono" placeholder="Telefono">
+            
+            <textarea name="mensaje" placeholder="Ingrese Mensaje"></textarea>
+            
+            <input type="submit" value="Enviar" class="enviar" name="btnEnviar">
+          
+        </form>
+    </div>
 </body>
-
 </html>
