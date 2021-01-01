@@ -3,7 +3,7 @@
    $email= $_POST["email"];
    $telefono= $_POST["telefono"];
    $mensaje=$_POST["mensaje"];
-   $destinatario= "raulvallediaz@gmail.com"; 
+   $destinatario= "raulvallediaz@yahoo.es"; 
    $asunto="Email desde la web";
    $contenido= "Nombre: " .$nombre . "\nEmail: " .$email . "\nTelefono: " .$telefono ."\nMensaje: " . $mensaje;
 
