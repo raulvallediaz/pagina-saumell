@@ -6,4 +6,5 @@
     $mensaje= $_POST["mensaje"];
     $asunto= "Contacto web Aresa";
     $contenido= "Nombre: " .$nombre ."\nCorreo: " .$correo ."\nTeléfono:" .$telefono ."\nMensaje:" .$mensaje;
+    mail($destino,$contenido);
 ?>
