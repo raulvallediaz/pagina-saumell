@@ -10,18 +10,13 @@
 </head>
 
 <body>
-<form action="enviar.php" method="post" class="form-contact">
-	<div class="enviar">
- 		
- 		<input type="text" name="nombre" placeholder="Digite Nombre"required >
-		<input type="text" name="correo" placeholder="Digite Email"required >
-		<input type="text" name="telefono" placeholder="Digite telefono"required >
-	 	<textarea name="mensaje" placeholder="Escriba su mensaje" required></textarea>
-	
-		<input type="submit" value="Enviar" id="boton">
-	</div>
+<form action="enviar.php" method="POST">
+	Tu nombre: <input type="text" name="nombre"><br/>
+	Tu correo: <input type="text" name="correo"><br/>
+	Asunto: <input type="text" name="asunto"><br/>
+	Mensaje: <textarea name="mensaje"></textarea><p/>
+	<input type="submit" value="Enviar"><br/>
 </form>
-
 </body>
 
 </html>
