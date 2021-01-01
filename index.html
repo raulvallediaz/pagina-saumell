@@ -12,13 +12,13 @@
 <body>
 <form action="enviar.php" method="post" class="form-contact">
 	<div class="enviar">
- 		<label for="nombre">Nombre *</label>
- 		<input type="text" id="names" name="nombre"required >
  		
-	    <label for="nombre">Mensaje *</label>
-	 	<textarea name="" id="mensaje" cols="30" rows="10" name ="mensaje"></textarea>
+ 		<input type="text" name="nombre" placeholder="Digite Nombre"required >
+		<input type="text" name="correo" placeholder="Digite Email"required >
+		<input type="text" name="telefono" placeholder="Digite telefono"required >
+	 	<textarea name="mensaje" placeholder="Escriba su mensaje" required></textarea>
 	
-	<input type="submit" value="Enviar Mensaje" id="btnSend">
+		<input type="submit" value="Enviar" id="boton">
 	</div>
 </form>
 
