@@ -1,10 +1,9 @@
  <?php
-$nombre=$POST["nombre"];
-$correo=$POST["correo"];
-$telefono=$POST["telefon"];
-$mensaje=$POST["mensaje"];
-
-$destino="raulvallediaz@gmail.com";
-$asunto="Contacto web Aresa";
-$contenido="Nombre: " .$nombre ."\nCorreo: " .$correo ."\nTeléfono:" .$telefono ."\nMensaje:" .$mensaje;
+    $destino= "raulvallediaz@gmail.com";
+    $nombre= $_POST["nombre"];
+    $correo= $_POST["correo"];
+    $telefono= $_POST["telefon"];
+    $mensaje= $_POST["mensaje"];
+    $asunto= "Contacto web Aresa";
+    $contenido= "Nombre: " .$nombre ."\nCorreo: " .$correo ."\nTeléfono:" .$telefono ."\nMensaje:" .$mensaje;
 ?>
